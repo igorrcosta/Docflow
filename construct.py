@@ -12,7 +12,7 @@ def construct(phrases):
     for phrase in phrases:
         stage.add_phrase(phrase)
     doc.add_stage(stage)
-    doc.construct(drra)
+    doc.construct()
 
 if __name__ == '__main__':
     phrases = [

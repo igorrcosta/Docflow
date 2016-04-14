@@ -12,7 +12,7 @@ class Docflow():
         self.stages.append(stage)
 
     def construct(self):
-        for stage in stages:
+        for stage in self.stages:
             print stage
 
 class Stages():
